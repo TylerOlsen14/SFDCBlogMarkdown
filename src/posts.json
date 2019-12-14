@@ -1,0 +1,19 @@
+[{
+  "id": 1,
+  "title": "My First Post, dude!",
+  "author": "Tyler Olsen",
+  "date": "13 December, 2019",
+  "content": "\n# TITLE!!!\nThis is my **first** post, bro!"
+}, {
+  "id": 2,
+  "title": "My Second Post!",
+  "author": "Tyler Olsen",
+  "date": "13 December, 2019",
+  "content": "\n# ANOTHER title!!!\nThis is my **second** post, bro!"
+}, {
+  "id": 3,
+  "title": "Tucker's First Post!",
+  "author": "Tucker the Dog",
+  "date": "12 December, 2019",
+  "content": "\n# Tucker is here to stay!\nThis is the dog's first post"
+}]

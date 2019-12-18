@@ -12,7 +12,10 @@ h1{
 }
 
 .header {
-  background: navy;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: lightcoral;
   color: lightblue;
   padding: 10px 20px;
 }
@@ -31,4 +34,13 @@ h1{
   border: 1px solid lightblue;
   margin-bottom: 20px; 
   padding: 0 20px; 
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-right: 5rem;
 }

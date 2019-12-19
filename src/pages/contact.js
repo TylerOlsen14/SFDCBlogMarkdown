@@ -6,7 +6,7 @@ import './pages.css'
 
 const Contact = () => {
   return (
-    <div>
+    <div className="Contact">
       <Layout>
         <h1>
           This is the CONTACT Page

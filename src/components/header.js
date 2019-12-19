@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../assets/LogoMakr_54VoFq copy.png'
 import './components.css'
+import { Button, ButtonGroup } from 'reactstrap'
 
 const Header = () => {
   return (
@@ -10,9 +11,17 @@ const Header = () => {
         <img src={logo} alt="Tucker, Finn, and co. Web Developers"/>
       </div>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Contact">Contact</Link>
+        <ButtonGroup vertical className="bg-primary">
+          <Button color="info">
+            <Link to="/" className="text-warning">Home</Link>
+          </Button>
+          <Button color="secondary">
+            <Link to="/About" className="text-danger">About</Link>
+          </Button>
+          <Button color="warning">
+            <Link to="/Contact" className="text-muted">Contact</Link>
+          </Button>
+        </ButtonGroup>
       </div>
     </div>
   )

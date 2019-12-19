@@ -3,3 +3,13 @@
   margin: auto;
   text-align: center;
 }
+.About{
+  width: 90%;
+  height: 100vh;
+  margin: 50px;
+}
+.Contact{
+  width: 90%;
+  height: 100vh;
+  margin: 50px;
+}

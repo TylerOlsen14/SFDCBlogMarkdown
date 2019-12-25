@@ -2,7 +2,9 @@ const path = require("path")
 const fs = require("fs")
 
 const dirPath = path.join(__dirname, "../src/content")
+const dirPathPages = path.join(__dirname, "../src/pages/content")
 let postlist = []
+let pagelist = []
 
 const getPosts =  () => {
   fs.readdir(dirPath, (err, files) => {
@@ -40,7 +42,7 @@ const getPosts =  () => {
         const content = parseContent({lines, metadataIndices})
         const date = new Date(metadata.date)
         const timestamp = date.getTime() / 1000
-        console.log(timestamp)
+        // console.log(timestamp)
         post = {
           id: timestamp,
           title: metadata.title ? metadata.title : "No title given",
@@ -63,4 +65,24 @@ const getPosts =  () => {
   })
   return
 }
+const getPages =  () => {
+  fs.readdir(dirPathPages, (err, files) => {
+    if (err) {
+      return console.log("Failed to list directory contents: " + err)
+    }
+    files.forEach((file, i) => {
+      let page
+      fs.readFile(`${dirPathPages}/${file}`, "utf8", (err, contents) => {
+        page = {
+          content: contents
+        }
+        pagelist.push(page)
+          let data = JSON.stringify(pagelist)
+          fs.writeFileSync("src/pages.json", data)
+      })
+    })
+  })
+  return
+}
 getPosts()
+getPages()

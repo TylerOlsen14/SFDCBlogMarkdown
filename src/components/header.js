@@ -1,14 +1,16 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import logo from '../assets/LogoMakr_54VoFq copy.png'
 import './components.css'
-import { Button, ButtonGroup } from 'reactstrap'
+import Navbar from './navbar'
+// import { Button, ButtonGroup } from 'reactstrap'
 
 const Header = () => {
   return (
     <div className="header">
       <img src={logo} alt="Tucker, Finn, and co. Web Developers" />
-      <ButtonGroup className="ButtonGroup">
+      <Navbar />
+      {/* <ButtonGroup className="ButtonGroup">
         <Button color="secondary" size="sm">
           <Link className="Link" to="/">Home</Link>
         </Button>
@@ -20,7 +22,7 @@ const Header = () => {
         <Button color="secondary" size="sm">
           <Link className="Link" to="/Contact">Contact</Link>
         </Button>
-      </ButtonGroup>
+      </ButtonGroup> */}
     </div>
   )
 }

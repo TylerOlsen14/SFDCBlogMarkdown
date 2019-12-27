@@ -28,7 +28,8 @@ h1{
 .navbar{
   display: flex;
   flex-direction: row;
-  justify-content: space-around
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer {
@@ -48,12 +49,10 @@ h1{
 }
 
 .links{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   padding: 1rem;
   padding-right: 5rem;
+  width: 4rem;
+  text-align: center;
 }
 .ButtonGroup{
   display: flex;
@@ -70,4 +69,9 @@ h1{
 .logo{
   border-style:solid;
   border-width: medium;
+}
+@media only screen and (max-width: 555px) {
+  .header{
+    flex-direction:column;
+  }
 }

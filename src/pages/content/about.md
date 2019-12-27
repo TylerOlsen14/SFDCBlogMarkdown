@@ -1,3 +1,1 @@
-Greetings.
-<br>
-My name is Tyler Olsen and I am a nerd. I love reading, writing, and learning. 
+My name is Tyler Olsen and I am a nerd.I love reading, writing, and learning. I spent seven years at university trying to learn how to speak, how to read, and how to be a teacher. I washed out. It takes a special breed of folks to be teachers. I thought I was a good teacher. I wasn't **patient** enough to do it. Instead I turned to tech, web development. I'm pretty good at that too. My main idea behind this blog is to showcase some of the cool stuff I learned how to do on Salesforce. If you want to learn some of the more basic features of Salesforce you should get off to Trailhead. On Trailhead I learned the foundations of Salesforce; if that's what you want to learn, you should do it there. I'm most interested in the cool stuff. I've spent a few minutes 

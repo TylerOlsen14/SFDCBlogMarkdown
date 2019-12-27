@@ -3,7 +3,7 @@
   margin: auto;
   text-align: center;
 }
-.About{
+.Layout, .About{
   width: 90%;
   height: 100vh;
   margin: 50px;
@@ -14,9 +14,9 @@
   margin: 50px;
 }
 .page-content{
-  width: 40%;
+  width: 80%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 .post{
   width: 40%;

@@ -3,12 +3,7 @@
   margin: auto;
   text-align: center;
 }
-.Layout, .About{
-  width: 90%;
-  height: 100vh;
-  margin: 50px;
-}
-.Contact{
+.Layout, .About, .Contact{
   width: 90%;
   height: 100vh;
   margin: 50px;

@@ -9,7 +9,8 @@ import Profile from '../assets/GetImage.jpeg'
 const About = () => {
   return (
       <Layout>
-        <div className="Layout">
+        {/* <div className="About"> */}
+        <div>
           <h1>Meet our writers</h1>
           <h2>My name is Tyler Olsen</h2>
           <div className="page-content">
